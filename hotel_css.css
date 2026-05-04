@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+  .vision {
+    text-align: center;
+    padding: 60px 20px;
+    background: #111;
+  }
+  
+  .vision h2 {
+    color: gold;
+    margin-top: 20px;
+  }
+  
+  .vision p {
+    color: #ccc;
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  body {
+    background: #1A1A1A;
+    color: white;
+  }
+
+  .logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    width: 60px;  
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .logo h1 {
+    font-size: 24px; 
+  }
+
+  .logo img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .logo h1:hover {
+    transform: scale(1.1) ;
+    transition: 0.3s;
+  }
+.navbar a{
+    text-decoration: none;
+}
+  .navbar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 60px;
+    z-index: 10;
+  }
+
+  .navbar h1 {
+    color: white;
+    
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: gold;
+  }
+  
+ 
+  .hero {
+    height: 100vh;
+    background: 
+      linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2)),
+      url("im.jfif");
+  
+    background-size: cover;
+    background-position: center;
+  
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+  }
+  
+  .txt h1 {
+    font-size: 50px;
+  }
+  
+  .txt p {
+    margin: 10px 0;
+    color: #ccc;
+  }
+  
+
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: gold;
+    transform: scale(1.1);
+  }
+  
+
+  .rooms {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .rooms h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  
+  .rooms-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .room {
+    background: #2B1B14;
+    width: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  
+  .room img {
+    width: 100%;
+  }
+  
+  .room h3 {
+    margin: 10px 0;
+  }
+  
+  .room p {
+    color: gold;
+    margin-bottom: 10px;
+  }
+  
+  .room:hover {
+    transform: translateY(-10px);
+  }
+  .footer {
+    background: #111;
+    color: white;
+    padding: 60px 20px;
+    margin-top: 50px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .box {
+    width: 200px;
+  }
+  
+  .box h3 {
+    color: gold;
+    margin-bottom: 10px;
+  }
+  
+  .box a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: 0.3s;
+  }
+  
+  .box a:hover {
+    color: gold;
+  }
+  
+
+  .copy {
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+    font-size: 14px;
+  }

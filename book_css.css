@@ -1,0 +1,188 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+  
+  /* body */
+  body {
+    background: #1A1A1A;
+    color: white;
+  }
+  .logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    width: 60px;   /* كبره براحتك (50 - 80) */
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .logo h1 {
+    font-size: 24px; /* ثابت زي ما هو */
+  }
+
+  .logo img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .logo h1:hover {
+    transform: scale(1.1) ;
+    transition: 0.3s;
+  }
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+  }
+  
+  .navbar h1 {
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: gold;
+  }
+  
+  /* HEADER */
+  #hea-deta {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #hea-deta h1 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  
+  #hea-deta p {
+    color: #ccc;
+  }
+  
+  /* ROOMS GRID */
+  .room {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  /* CARD */
+  .card {
+    background: #2B1B14;
+    width: 250px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card h2 {
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .card h3 {
+    color: gold;
+    margin: 10px 0;
+  }
+  
+  /* INPUT */
+  input {
+    margin-top: 5px;
+    padding: 8px;
+    width: 80px;
+    border: none;
+    text-align: center;
+  }
+  
+  /* BUTTON */
+  .bu-deta {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 15px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .bu-deta:hover {
+    background: gold;
+    transform: scale(1.1);
+  }
+  
+  /* TOTAL TEXT */
+  .card p[id^="total"] {
+    margin-top: 10px;
+    font-weight: bold;
+    color: lightgreen;
+  }
+  
+  /* HOVER EFFECT */
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* FOOTER */
+  .footer {
+    background: #111;
+    padding: 50px 20px;
+    margin-top: 50px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 200px;
+  }
+  
+  .box h3 {
+    color: gold;
+    margin-bottom: 10px;
+  }
+  
+  .box a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .box a:hover {
+    color: gold;
+  }
+  
+  .copy {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+  }
