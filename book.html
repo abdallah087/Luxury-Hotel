@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Room Details</title>
+    <link rel="stylesheet" href="book_css.css">
+    <link rel="icon" href="logo .png">
+</head>
+<body>
+    <header id="hea-deta">
+      <div class="navbar">
+        <div class="logo">
+          <a href="book.html">
+            <img src="logo .png" alt="logo">
+            <h1>Luxury Hotel</h1>
+          </a>
+        </div>
+      
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="categories.html">Categories</a>
+          <a href="book.html">Rooms</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+   <h1>Room Details</h1>
+   <p>Select your room and book now</p>
+  </header>
+ 
+    <div class="room">
+        <div class="card">
+            <img src="7719496-1610951760.jpg" alt="">
+            <h2>Luxury Hotels</h2>
+            <p>King bed, sea view, free wifi, breakfast included.</p>
+            <h3>$50 / Night</h3>
+            <label>Nights:</label>
+            <input type="number" value="1" min="1" id="night1" >
+
+            <button class="bu-deta" onclick="bookRoom(50,'night1','total1')">Book Now</button>
+
+              <p id="total1">Total Price: $0</p>
+
+        </div>
+        <div class="card">
+            <img src="4.jpg" alt="">
+            <h2>Business Hotels</h2>
+            <p>Perfect for business trips and meetings.</p>
+            <h3>$80 / Night</h3>
+            <label>Nights:</label>
+            <input type="number" value="1" min="1" id="night2">
+
+            <button class="bu-deta" onclick="bookRoom(80,'night2','total2')">Book Now</button>
+
+              <p id="total2">Total Price: $0</p>
+
+        </div>
+        <div class="card">
+          <img src="9.jpg" alt="">
+      
+          <h2>Family Hotels</h2>
+          <p>Perfect for families and comfort stay.</p>
+      
+          <h3>$100 / Night</h3>
+      
+          <label>Nights:</label>
+          <input type="number" value="1" min="1" id="night7">
+      
+          <button class="bu-deta"
+              onclick="bookRoom(100,'night7','total7')">
+              Book Now
+          </button>
+      
+          <p id="total7">Total Price: $0</p>
+      </div>
+        <div class="card">
+            <img src="7.jpg" alt="">
+            <h2>Budget Hotels</h2>
+            <p>Comfortable rooms for families..</p>
+            <h3>$120 / Night</h3>
+            <label>Nights:</label>
+            <input type="number" value="1" min="1" id="night3">
+
+            <button class="bu-deta" onclick="bookRoom(120,'night3','total3')">Book Now</button>
+
+              <p id="total3">Total Price: $0</p>
+
+        </div>
+        <div class="card">
+            <img src="3.webp" alt="">
+            <h2>Beach Resorts</h2>
+            <p>King bed, sea view, free wifi, breakfast included.</p> 
+            <h3>$250 / Night</h3>
+            <label>Nights:</label>
+            <input type="number" value="1" min="1" id="night4">
+
+            <button class="bu-deta" onclick="bookRoom(250,'night4','total4')">Book Now</button>
+
+              <p id="total4">Total Price: $0</p>
+
+        </div> </div>
+        <footer class="footer">
+
+          <div class="footer-container">
+        
+            <div class="box">
+              <h3>About the Developer</h3>
+              <p>This website is developed by abdallah, a student at the (AOU).
+                  TT284 Spring 2025/2026 semester..</p>
+            </div>
+        
+            <div class="box">
+              <h3>Links</h3>
+              <a href="index.html">Home</a>
+              <a href="book.html">Rooms</a>
+              <a href="Categories.html">Categories</a>
+              <a href="#">Contact</a>
+            </div>
+        
+            <div class="box">
+              <h3>Contact</h3>
+              <p>Email: info@kinghotel.com</p>
+              <p>Phone: +20 123 456 789</p>
+            </div>
+        
+          </div>
+        
+          <p class="copy">© 2026 Luxury Hotel. All Rights Reserved</p>
+        
+        </footer>
+
+   
+    <script src="price.js"></script>
+</body>
+</html>
